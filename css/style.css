@@ -78,6 +78,40 @@ DEBUG
   height: 450px;
 }
 
+.debug .footer1 {
+  background-color: #23272a;
+  border-bottom: 2px solid #d7d7d8;
+}
+
+.debug .box1-footer1 {
+  border: 1px dashed black;
+  height: 400px;
+  background-color: #f08080;
+}
+
+.debug .box2-footer1 {
+  border: 1px dashed black;
+  height: 400px;
+  background-color: #20b2aa;
+}
+
+.debug .box2-footer1 div {
+  border: 1px dashed white;
+}
+
+.debug .footer2 {
+  background-color: #23272a;
+}
+
+.debug .footer2 .container.layout {
+  background-color: #7fffd4;
+}
+
+.debug .footer2 .container.layout div {
+  border: 1px dashed black;
+  background-color: #ffb6c1;
+}
+
  /*
 COMMON 
  */
@@ -153,3 +187,33 @@ section {
  /*
 FOOTER 
  */
+
+.footer1 {
+  padding: 10px 0 20px;
+}
+
+.box1-footer1 {
+  width: calc(100% / 3);
+}
+
+.box2-footer1 {
+  width: calc(100% / 3 * 2);
+  display: flex;
+}
+
+.box2-footer1 div {
+  width: 25%;
+}
+
+.footer2 {
+  padding-top: 15px;
+}
+
+.footer2 .container.layout {
+  padding: 10px 0;
+  justify-content: space-between;
+}
+
+.footer2 .container.layout div {
+  padding: 5px;
+}
