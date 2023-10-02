@@ -2,8 +2,100 @@
 RESET 
  */
 
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- }
+}
+
+ /*
+DEBUG
+ */
+
+.debug .header1 {
+  background-color: #add8e6;
+}
+
+.debug .header2 {
+  background-color: #00008b;
+}
+
+.debug .logo {
+  background-color: #daa520;
+  border: 1px dashed black;
+}
+
+.debug .links {
+  background-color: #daa520;
+  border: 1px dashed black;
+  text-align: center;
+}
+
+.debug .login {
+  background-color: #daa520;
+  border: 1px dashed black;
+  text-align: right;
+}
+
+.debug  .box-header2 {
+  background-color: #ee82ee;
+  border: 1px dashed black;
+  height: 300px;
+}
+
+ /*
+COMMON 
+ */
+
+.container {
+  display: flex;
+}
+
+.layout {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+ /*
+HEADER 
+ */
+
+.header1 {
+  padding: 10px 0;
+}
+
+.header2 {
+  padding: 30px 0;
+}
+
+.logo {
+  width: 25%;
+  padding: 5px;
+}
+
+.links {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.login {
+  width: 25%;
+  padding: 5px;
+}
+
+.header2 .container {
+  justify-content: center;
+  align-items: center;
+}
+
+.box-header2 {
+  width: 700px;
+}
+
+ /*
+MAIN 
+ */
+
+ /*
+FOOTER 
+ */
