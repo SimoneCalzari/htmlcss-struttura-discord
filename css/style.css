@@ -37,10 +37,45 @@ DEBUG
   text-align: right;
 }
 
-.debug  .box-header2 {
+.debug .box-header2 {
   background-color: #ee82ee;
   border: 1px dashed black;
   height: 300px;
+}
+
+.debug .section1 {
+  background-color: #ffffff;
+}
+
+.debug .section2 {
+  background-color: #d3d3d3;
+}
+
+.debug .section3 {
+  background-color: #ffffff;
+}
+
+.debug .section4 {
+  background-color: #d3d3d3;
+}
+
+
+.debug section .box1-section {
+  height: 350px;
+  border: 1px dashed black;
+  background-color: #1e90ff;
+}
+
+.debug section .box2-section {
+  height: 350px;
+  border: 1px dashed black;
+  background-color: #ffc0cb;
+}
+
+.debug .section4 .container.container.layout div {
+  background-color: #228b22;
+  border: 1px dashed black;
+  height: 450px;
 }
 
  /*
@@ -96,6 +131,25 @@ HEADER
 MAIN 
  */
 
+section {
+  padding: 30px 0;
+}
+
+.box1-section {
+  width: 60%;
+}
+
+.box2-section {
+  width: 40%;
+}
+
+.section2 .box1-section {
+  order: 1;
+}
+
+.section4 .container.layout div {
+  flex-grow: 1;
+}
  /*
 FOOTER 
  */
